@@ -1,0 +1,6 @@
+{
+  "name": "Veloire Store",
+  "description": "Luxury fashion ecommerce platform with multi-vendor marketplace, checkout, and admin dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
