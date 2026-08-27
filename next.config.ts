@@ -33,7 +33,7 @@ const PRODUCT_IMAGE_HOSTS = [
   "www.koai.in",
 ] as const;
 
-const isVercel = Boolean(process.env.VERCEL);
+const isVercel = Boolean(process.env.VERCEL); 
 
 const nextConfig: NextConfig = {
   ...(isVercel ? {} : { output: "standalone" }),
